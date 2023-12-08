@@ -1,0 +1,35 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@media only screen and (max-width: 523px) {
+    .contact-list {
+        flex-direction: column;
+    }
+
+    .contact-list-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 249px) {
+    .buttons button {
+        margin: 0px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+}
